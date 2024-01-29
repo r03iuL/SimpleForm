@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleForm</title>
+</head>
+
+<body>
+    <center>
+        <h1>Sign Up!</h1>
+        <table>
+            <form action="">
+                <tr>
+                    <th> <label for="Name" > Name: </label></th>
+                    <td> <input type="text" placeholder="First name" required></td>
+                    <td><input type="text" placeholder="Last name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="Email">Email: </label></th>
+                    <td colspan=""><input type="email" required placeholder="Enter your email." ></td>
+                </tr>
+                <tr>
+                    <th><label for="pass">Password: </label></th>
+                    <td colspan=""><input type="password" placeholder="password" required></td>
+                    <td colspan=""><input type="password" placeholder=" confirm password" required></td>
+                </tr>
+                <tr>
+                    <th><label for="number">Number: </label></td>
+                    <td colspan="2"><input type="tel" placeholder="Enter your phone number."></td>
+
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td><input type="radio" name="Gender" value="male">
+                        <label for="Male">Male</label>
+                        <input type="radio" name="Gender" value="female">
+                        <label for="Female">Female</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" value="third">
+                        <label for="third">Third</label>
+                        <input type="radio" name="Gender" value="hide">
+                        <label for="Dont">Don't say</label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th>About yourself: </th>
+                    <td colspan="2"><textarea name="" id="" cols="45" rows="5" placeholder="Describe Yourself! "></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td colspan="2">
+                        <input type="checkbox" required> <label for="">I am not a robot !</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td colspan="2">
+                        <input type="checkbox" required> <label for="">I  have have read terms and conditions and I agree!</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> <button type="submit">Subbmit</button></td>
+                    <td><button type="reset">Reset</button></td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+
+</html>
